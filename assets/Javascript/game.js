@@ -131,14 +131,14 @@ function winLose() {
         document.getElementById('winCounter').innerHTML = winCount;
         playAudioWin();
         setTimeout(function () { alert("I found it is the small everyday deeds of ordinary folk that keep the darkness at bay"); }, 1000);
-        // reset();
+        reset();
     }
     else if (guessesLeft === 0) {
         lossCount++;
         document.getElementById('lossCounter').innerHTML = lossCount;
         playAudioloss();
         alert('Fool of a Took!');
-        // reset();
+        reset();
     }
 }
 
