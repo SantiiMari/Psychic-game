@@ -1,0 +1,60 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Middle Earth Word Guess</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="reset style" type="css" media="screen" href="Assets\css\reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../Psychic-game/Assets/css/style.css" />
+   
+   
+</head>
+
+<body>
+<audio id='audioLoss'>
+    <source src ="Assets/images/gollum_stupidfathobbit.wav">
+</audio> 
+<audio id='audioWin'>
+    <source src="Assets/images/countsone.wav">
+</audio>
+
+    <div id="wrapper">
+
+        <div id="rowz">
+
+            <div id="Sauron"><img src="Assets/images/sauroneye.jpg" alt="mordoreye"></div>
+            <div id="instructions">
+                <h1>Guess the word to defeat Smaug!</h1>
+                <h2>Letters Guessed: <span id="wrongGuesses"></span></h2>
+                <h2>Guesses Left: <span id="numGuesses"></span></h2>
+            </div>
+            <div id="points">
+                <h2>Wins: <span id="winCounter"></span></h2>
+                <h2>Lossses:<span id="lossCounter"></span></h2>
+            </div>
+
+        </div>
+
+        <div id="flexBox">   
+
+        <main id="smaug">
+                <img src="Assets/images/bilbo_with_smaug2.jpg" alt="smaugSleep">
+
+                <article class="nested">
+                   <!-- <h1 id=guessMe> -->
+                       <p id="blankWord">_ _ _ _ _ _ _ _</p>
+                   
+                </article>
+
+            </div>
+        </div>
+
+
+    </div>
+    
+    <script src="C:\Users\Maria\Documents\SMU\Homework\Word Psych Game\Psychic-game\Assets\Javascript\game.js"></script>
+</body>
+
+</html>
